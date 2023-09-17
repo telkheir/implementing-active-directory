@@ -100,7 +100,7 @@ Client-1 is now a member of the domain and you should be able to log in to the c
 	</li>
  	<li><h3 id = "#tep_5">Allow all domain users access to Client-1</h3>
 		The video below shows how to allow domain users to access the Client-1 virtual machine.
-    		<br><br>
+    		<br>
 
 https://github.com/telkheir/implementing-active-directory/assets/145223639/bc798654-9669-4caf-8509-be231ef829fb
 
