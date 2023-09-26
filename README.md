@@ -34,7 +34,7 @@ This tutorial will walk through the implementation of Active Directory using Azu
 <h2> Installation Steps </h2>
 	<ol>
 	  <li><h3 id = "step_1">Set up virtual machines</h3>
-		We need two virtual machines to begin, a windows server acting as the domain controller (named "DC-1" in the example) and one running Windows 10 (named "Client-1"). Make sure they are set up in the same region and virtual network.
+		We need two virtual machines to begin, a windows server acting as the domain controller (named "DC-1" in the example) and one running Windows 10 (named "Client-1"). Make sure they are set up in the same resource group, region, and virtual network. I allotted both virtual machines at least 2 VCPUs and 8 GB memory.
 		<br><br>
 		<img width="764" alt="dc1-setup" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/9c38ada9-260f-45e0-baec-a0e15fe96c46">
 		<img width="767" alt="client1-setup" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/70a32856-90d7-4999-a305-0c7a7c73b7be">
