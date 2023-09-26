@@ -69,11 +69,11 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		  The next section should prompt the user to set up a password. Continue with the wizard and complete the installation. The virtual machine may need to restart to apply all the changes.
 	  </li>
    	  <li><h3 id = "step_3">Setting up an Admin account</h3>
-      		  Active Directory Users and Computers can be accessed through the server manager from the Tools drop-down menu.
+      		  We're going to set up an admin account in our new domain. Active Directory Users and Computers can be accessed through the server manager from the Tools drop-down menu.
 	  	  <br><br>
       		  <img width="917" alt="accessing-active-directory" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/2a78692a-eb79-4471-a6e2-a4415a27f579">
 	  	  <br><br>
-		  Next, right click on the domain name, go to New, and select Organizational Unit. In this example, I created two organizational units called "Admins" and "Employees".
+		  Right click on the domain name, go to New, and select Organizational Unit. In this example, I created two organizational units called "Admins" and "Employees".
 		  <br><br>
       		  <img width="566" alt="active-directory-new-org" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/7b892fc6-6b9c-4688-9dbb-b10477434288">
 	  	  <br><br>
@@ -81,7 +81,7 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		  <br><br>
     		  <img width="567" alt="active-directory-new-user" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/e96d3649-e65f-40cb-941e-a5b5b05f3c92">
 		  <br><br>
-    		  This created a new user but they are not an admin yet. To assign them, go to that user's properties and navigate to the "Member of" tab. From there, click Add and type 'domain' into the box and click Check Names beside it. Click the domain option. This process is shown in the video below. You can now log out of the domain controller and log back in as an admin.
+    		  This process created a new user but they are not an admin yet. To assign them the role of admin7, go to that user's properties and navigate to the "Member of" tab. From there, click Add and type 'domain' into the box and click Check Names beside it. Click the domain option. This process is shown in the video below. You can now log out of the domain controller and log back in as an admin.
 		  <br><br>
 		  
 https://github.com/telkheir/implementing-active-directory/assets/145223639/66984d36-98e6-4914-a7f3-9d15542128e0
