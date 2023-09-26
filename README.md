@@ -66,7 +66,7 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		  <br><br>
 		  <img width="917" alt="dc-1-naming-domain" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/907e1c24-ec67-4c2a-92c5-dfe611acd357">
     		  <br><br>
-		  The next section should prompt the user to set up a password. Continue with the wizard and complete the installation. The device may restart.
+		  The next section should prompt the user to set up a password. Continue with the wizard and complete the installation. The virtual machine may need to restart to apply all the changes.
 	  </li>
    	  <li><h3 id = "step_3">Setting up an Admin account</h3>
       		  Active directory can be accessed through the server manager from the Tools drop-down menu.
