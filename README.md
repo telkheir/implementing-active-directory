@@ -54,7 +54,7 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		<img width="915" alt="dc-1-enable-echo" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/21e90164-9fae-41d0-9f64-a1aeac24e272">
 	  </li>
 	  <li><h3 id = "step_2">Install Active Directory Domain Services on the domain controller (DC-1)</h3>
-		  Navigate to "Add Roles and Features" in the server manager under "Manage"(top right). Continue through the wizard until you reach the Server Roles section and select "Active Directory Domain Services". Click Next and complete the installation.
+		  Navigate to "Add Roles and Features" in the server manager under "Manage"(top right). Continue through the wizard until you reach the Server Roles section and select "Active Directory Domain Services". Click Next and complete the installation. All the other sections in the wizard can be left on default.
 		  <br><br>
 		  <img width="960" alt="dc-1-install-active-directory" src="https://github.com/telkheir/implementing-active-directory/assets/145223639/475aaa2e-f908-4f34-8a83-f780a6470f7c">
 		  <br><br>
